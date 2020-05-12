@@ -43,7 +43,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav desktop-view">
               <li class="nav-item">
                 <div class="input-group">
                   <input
@@ -85,6 +85,20 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">DONATE</a>
+              </li>
+              <li class="nav-item mobile-view">
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control txt-search"
+                    placeholder="SEARCH"
+                  />
+                  <div class="input-group-append">
+                    <button class="btn btn-secondary btn-search" type="button">
+                      <i class="fa fa-search"></i>
+                    </button>
+                  </div>
+                </div>
               </li>
             </ul>
           </div>
@@ -183,10 +197,19 @@
       </div>
 
       <div class="section-4">
-        <div class="container-fluid">
+        <div class="container">
           <div class="donate-content">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-6 order-md-2">
+                <div
+                  data-aos="fade-left"
+                  data-aos-offset="400"
+                  data-aos-duration="400"
+                >
+                  <img src="img/child-img.png" width="100%" alt="" />
+                </div>
+              </div>
+              <div class="col-md-6 order-md-1">
                 <div
                   data-aos="fade-right"
                   data-aos-offset="400"
@@ -200,15 +223,6 @@
                     now!
                   </p>
                   <button>DONATE HERE</button>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div
-                  data-aos="fade-left"
-                  data-aos-offset="400"
-                  data-aos-duration="400"
-                >
-                  <img src="img/child-img.png" width="100%" alt="" />
                 </div>
               </div>
             </div>
@@ -306,7 +320,7 @@
         <div class="container">
           <div class="contact-info">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-6 mt-4">
                 <div class="row">
                   <div class="col-md-6">
                     <label for="">First Name</label> <input type="text" />
@@ -326,7 +340,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 mt-4">
                 <p>
                   <span>BUSINESS ADDRESS:</span><br />
                   3/F, Universal RE Building<br />
