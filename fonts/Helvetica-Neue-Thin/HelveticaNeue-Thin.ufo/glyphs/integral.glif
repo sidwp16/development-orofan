@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="integral" format="2">
+  <advance width="1063"/>
+  <unicode hex="00FA"/>
+  <outline>
+    <component base="igrave"/>
+    <component base="ellipsis" xOffset="370"/>
+  </outline>
+</glyph>

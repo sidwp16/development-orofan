@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ordmasculine" format="2">
+  <advance width="1063"/>
+  <unicode hex="00FB"/>
+  <outline>
+    <component base="igrave"/>
+    <component base="threequarters" xOffset="364"/>
+  </outline>
+</glyph>
