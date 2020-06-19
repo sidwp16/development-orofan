@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="sterling" format="2">
-  <advance width="1517"/>
-  <unicode hex="00D6"/>
-  <outline>
-    <component base="l"/>
-    <component base="nonbreakingspace" xOffset="602" yOffset="354"/>
-  </outline>
-</glyph>

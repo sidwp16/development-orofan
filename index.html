@@ -14,226 +14,457 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- <link
       href="https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900"
       rel="stylesheet"
       type="text/css"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    /> -->
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" /> -->
     <link rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/main.css" />
   </head>
 
   <body>
     <div class="homepage">
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="navbar-top mobile-hide">
         <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="img/logo.png" width="100%" alt="" />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-4">
-              <li class="nav-item">
-                <a class="nav-link" href="#">BENEFITS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
-              </li>
-            </ul>
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item login">
-                <a class="nav-link" href="#" style="color: #fff;">LOGIN</a>
-              </li>
-            </ul>
+          <div class="row align-items-center">
+            <div class="col-md-4">
+              <form action="" class="site-block-top-search">
+                <i class="fa">&#xf002;</i>
+                <input type="text" class="form-control border-0" placeholder="Search">
+              </form>
+            </div>
+            <div class="col-md-4 text-center">
+              <img src="img/Orofan Logo-01.png" width="250">
+            </div>
+            <div class="col-md-4 social-media">
+              <ul>
+                <li><i class="fa">&#xf09a;</i></li>
+                <li><i class="fa">&#xf16d;</i></li>
+                <li><i class="fa">&#xf099;</i></li>
+              </ul>
+            </div>
           </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <img src="img/Orofan Logo-01.png" width="50%" class="desktop-hide mobile-show">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                PRODUCTS
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="product.html">ALL PRODUCTS</a>
+                <a class="dropdown-item" href="fan.html">FAN</a>
+                <a class="dropdown-item" href="stove.html">STOVE</a>
+              </div>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="request-a-quote.html">GET A QOUTE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+            <li class="desktop-hide mobile-show">
+              <div class="container">
+                <div class="row align-items-center">
+                  <div class="col-md-6">
+                    <form action="" class="site-block-top-search">
+                      <i class="fa">&#xf002;</i>
+                      <input type="text" class="form-control border-0" placeholder="Search">
+                    </form>
+                  </div>
+                  <div class="col-md-6 social-media">
+                    <ul>
+                      <li><i class="fa">&#xf09a;</i></li>
+                      <li><i class="fa">&#xf16d;</i></li>
+                      <li><i class="fa">&#xf099;</i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
       </nav>
-      <div class="rectangle"></div>
-      <div class="section-1">
-        <div class="banner">
-          <div class="container">
-            <div class="banner-content">
-              <div class="row">
-                <div class="col-md-6 order-md-2">
-                  <img src="img/home-banner-img.png" alt="" />
-                </div>
-                <div class="col-md-6 order-md-1">
-                  <h1>
-                    Mind You creates happier, healthier & more productive
-                    workforces
-                  </h1>
-                  <p>
-                    By providing employees with easy access to <br />
-                    preventative therapy and counseling at the workplace.
-                  </p>
-                  <button class="mt-4">LEARN HOW</button>
-                </div>
+
+     <!--  <div class="header-banner">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="banner-bg-img">
+                s
               </div>
+    </div>
+    <div class="carousel-item">
+      <div class="banner-bg-img-2">
+                s
+              </div>
+    </div>
+    <div class="carousel-item">
+      <div class="banner-bg-img">
+                s
+              </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+      </div> -->
+      <div class="banner-bg-img">
+        <!-- <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 text-center">
+              <img src="img/ODF-16 EG.1 BLUE.png" width="50%">
+            </div>
+            <div class="col-md-6">
+              <h1>Lorem ipsum dolor sit amet, consectetur adipiscing</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan tincidunt fringilla. Integer accumsan tincidunt fringilla.</p>
+              <button>LEARN MORE</button>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
+
       <div class="section-2">
         <div class="container">
-          <div class="section-2-content">
-            <div class="row">
-              <div class="col-md-6">
-                <img src="img/data-report.png" width="100%" alt="" />
-              </div>
-              <div class="col-md-6">
-                <h2>
-                  A happier staff reduces turnover, increases productivity, and
-                  cuts back on losses
-                </h2>
-                <p>
-                  Unhappy employees who don’t receive proper support are 50%
-                  more likely to quit, 18% less productive, and make 60% more
-                  errors on the job. Unfortunately for businesses, the results
-                  of these preventable losses are 16% lower profitability and
-                  65% lower share price over time.
-                  <br /><br />
-                  But the good news is, businesses that invest in the mental
-                  health of their employees gain $2.30 for every dollar spent.
-                  <br /><br />
-                  Mind You combats these potential losses head-on and improves
-                  your ROI by giving your stressed employees easy access to
-                  support before it results in losses in your business.
-                </p>
-                <button>LEARN MORE</button>
-              </div>
+          <div class="row text-center align-items-center">
+            <div class="col-md-3 col-border">
+              <i style="font-size: 45px; color: #011e41;" class="fa mb-3">&#xf0d1;</i>
+              <h5>Free Shipping</h5>
+              <p>Lorem ipsum dolor</p>
+            </div>
+            <div class="col-md-3 col-border">
+              <i style="font-size: 45px; color: #011e41;" class="fa mb-3">&#xf0d6;</i>
+              <h5>Money Return</h5>
+              <p>Lorem ipsum dolor</p>
+            </div>
+            <div class="col-md-3 col-border">
+              <i style="font-size: 45px; color: #011e41;" class="fa mb-3">&#xf095;</i>
+              <h5>Online Support</h5>
+              <p>Lorem ipsum dolor</p>
+            </div>
+            <div class="col-md-3">
+              <i style="font-size: 45px; color: #011e41;" class="fa mb-3">&#xf2b5;</i>
+              <h5>Deals & Discounts</h5>
+              <p>Lorem ipsum dolor</p>
             </div>
           </div>
         </div>
-      </div>
-      <div class="section-3">
-        <div class="container">
-          <div class="section-3-content">
-            <div class="row">
-              <div class="col-md-6 order-md-4">
-                <img src="img/section-3-img.png" width="500" alt="" />
-              </div>
-              <div class="col-md-6 order-md-3">
-                <h2>
-                  Did you know? The Philippines passed its first ever mental
-                  health law - The Philippine Mental Health Act (Republic Act
-                  11036).
-                </h2>
-                <p>
-                  The law was passed on June 20, 2018. It states that companies
-                  must have a mental health policy in place for their employees
-                  by 2021. If you don’t have a policy yet, don’t worry. Mind You
-                  makes it easy to set one up.
-                  <br /><br />We provide one confidential platform for employees
-                  to easily book their own care. Your business' legal
-                  requirements for a mental health policy will be taken care of
-                  for your entire company with one simple service.
-                </p>
-                <button>LEARN MORE</button>
+          <div class="product-category">
+            <div class="column-bg">
+              <div class="text-content">
+              <h2 class="title">Lorem ipsum dolor</h2>
+                <p>We keep treasured pieces looking new for longer so that you can be proud to wear them as often as you like. Colours stay vibrant and fabrics stay soft, whilst having the minimal possible impact on the environment around us.</p>
+                <div>
+                <a href="#" class="view-more">VIEW MORE</a>
+                </div>
               </div>
             </div>
-          </div>
         </div>
       </div>
-      <div class="section-4">
-        <div class="container">
-          <div class="data-points">
-            <div class="row">
-              <div class="col-md-6">
-                <img src="img/data-points.png" width="100%" alt="" />
+
+      <div class="categories">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 mt-2">
+              <div class="categories-fan text-center">
+                <h3 class="title">FAN</h3>
+                <a href="#" class="view-more">VIEW MORE</a>
               </div>
-              <div class="col-md-6 mt-4">
-                <h2>
-                  Understand your employees, and make more informed business
-                  decisions
-                </h2>
-                <p>
-                  Mind You provides data and insights about employee <br />
-                  wellbeing. We make it easy for your HR team to make the <br />
-                  best, most informed decisions possible for your <br />
-                  company.
-                </p>
-                <button>LEARN MORE</button>
+            </div>
+            <div class="col-md-6 mt-2">
+              <div class="categories-stove text-center">
+                <h3 class="title">STOVE</h3>
+                <a href="#" class="view-more">VIEW MORE</a>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="section-5">
+      <div class="product-section">
         <div class="container">
-          <div class="section-5-content">
-            <h2>
-              Create a happier, healthier, more productive workforce right now.
-            </h2>
-            <p>Contact a member of our team to get started.</p>
-            <button>CONTACT US</button>
+          <h2>FEATURED PRODUCTS</h2>
+          <!--Carousel Wrapper-->
+          <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+            <!--Controls-->
+            <div class="controls-top">
+              <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa left">&#xf104;</i></a>
+              <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa right">&#xf105;</i></a>
+            </div>
+            <!--/.Controls-->
+
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+              <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+              <li data-target="#multi-item-example" data-slide-to="1"></li>
+              <li data-target="#multi-item-example" data-slide-to="2"></li>
+            </ol>
+            <!--/.Indicators-->
+
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+
+              <!--First slide-->
+              <div class="carousel-item active">
+
+                <div class="row">
+
+                  <div class="col-md-4">
+                    <div class="card mb-2 text-center">
+                      <div class="product-img">
+                        <img class="card-img-top" src="img/ODF-16 EG.1 BLUE.png"
+                        alt="Card image cap">
+                      </div>
+                      <div class="card-body">
+                        <a href="#" class="product-link"><h5 class="card-title">DESK FAN</h5></a>
+                        <p class="mt-1">ODF-16 (EG. 1)</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 d-none d-md-block">
+                    <div class="card mb-2 text-center">
+                      <div class="product-img">
+                        <br/>
+                        <img class="card-img-top" src="img/OGS-DB.png"
+                        alt="Card image cap">
+                      </div>
+                      <div class="card-body">
+                        <a href="#" class="product-link"><h5 class="card-title">OGS-DB</h5></a>
+                        <p class="mt-1">AU. 1</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 d-none d-md-block">
+                    <div class="card mb-2 text-center">
+                      <div class="product-img">
+                        <img class="card-img-top" src="img/OSF-16 AU.2 FINAL T.BLUE.png"
+                        alt="Card image cap">
+                      </div>
+                      <div class="card-body">
+                        <a href="#" class="product-link"><h5 class="card-title">STAND FAN</h5></a>
+                        <p class="mt-1">OSF-16 (AU. 1)</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+              <!--/.First slide-->
+
+              <!--Second slide-->
+             <div class="carousel-item">
+
+                <div class="row">
+
+                  <div class="col-md-4">
+                    <div class="card mb-2 text-center">
+                      <div class="product-img">
+                        <img class="card-img-top" src="img/ODF-16 EG.1 BLUE.png"
+                        alt="Card image cap">
+                      </div>
+                      <div class="card-body">
+                        <a href="#" class="product-link"><h5 class="card-title">DESK FAN</h5></a>
+                        <p class="mt-1">ODF-16 (EG. 1)</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 d-none d-md-block">
+                    <div class="card mb-2 text-center">
+                      <div class="product-img">
+                        <br/>
+                        <img class="card-img-top" src="img/OIFF-16_2.png"
+                        alt="Card image cap">
+                      </div>
+                      <div class="card-body">
+                        <a href="#" class="product-link"><h5 class="card-title">INDUSTRIAL FLOOR FAN</h5></a>
+                        <p class="mt-1">ODF-16 (EG. 1)</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 d-none d-md-block">
+                    <div class="card mb-2 text-center">
+                      <div class="product-img">
+                        <img class="card-img-top" src="img/OSF-16 AU.2 FINAL T.BLUE.png"
+                        alt="Card image cap">
+                      </div>
+                      <div class="card-body">
+                        <a href="#" class="product-link"><h5 class="card-title">STAND FAN</h5></a>
+                        <p class="mt-1">OSF-16 (AU. 1)</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+              <!--/.Second slide-->
+
+              
+
+            </div>
+            <!--/.Slides-->
+
+          </div>
+<!--/.Carousel Wrapper-->
+        </div>
+      </div>
+
+      <div class="get-a-qoute">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
+            </div>
+            <div class="col-md-6"><a href="request-a-quote.html"><button>REQUEST QUOTE NOW</button></a></div>
           </div>
         </div>
       </div>
 
-      <div class="section-6">
+      <div class="about-section">
         <div class="container">
-          <div class="section-6-content">
-            <p>
-              If you or any other person are in a crisis or may be in danger -
-              don’t use this site.
-            </p>
-            <p>Please follow the instructions below:</p>
-            <p>
-              Proceed to the nearest emergency room or call the 24-hour
-              toll-free suicide prevention hotline, provided by the National
-              Center for Mental Health (NCMH).
-            </p>
-            <p>
-              0917-899-USAP (8727) <br />
-              0917-989-8727
-            </p>
+          <div class="row align-items-center">
+            <div class="col-md-6 order-md-2 mb-2">
+              <img src="img/warehouse.jpg" width="100%">
+            </div>
+            <div class="col-md-6 order-md-1">
+              <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+              <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius repellat, dicta at laboriosam, nemo exercitationem itaque eveniet architecto cumque, deleniti commodi molestias repellendus quos sequi hic fugiat asperiores illum. Atque, in, fuga excepturi corrupti error corporis aliquam unde nostrum quas.</p>
+
+              <p>Accusantium dolor ratione maiores est deleniti nihil? Dignissimos est, sunt nulla illum autem in, quibusdam cumque recusandae, laudantium minima repellendus.</p>
+            </div>
+            
           </div>
         </div>
       </div>
+
+      <div class="contact-area">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-4 col-border">
+              <div class="contact-phone">
+                <div class="phone-icon">
+                  <i class="fa">&#xf095;</i>
+                </div>
+                <div class="phone-details">
+                  <h5>044-802 5564</h5>
+                  <p>Free support line!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-border">
+              <div class="contact-phone">
+                <div class="phone-icon">
+                  <i class="fa">&#xf0e0;</i>
+                </div>
+                <div class="phone-details">
+                  <h5>orofanhomeapp@gmail.com</h5>
+                  <p>Orders Support!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="contact-phone">
+                <div class="phone-icon">
+                  <i class="fa">&#xf017;</i>
+                </div>
+                <div class="phone-details">
+                  <h5>Mon - Sat / 8am - 5pm</h5>
+                  <p>Working Days/Hours!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
 
     <footer>
       <div class="container">
-        <div class="footer-content">
-          <div class="row">
-            <div class="col-md-6 menu-footer">
-              <ul>
-                <li><a href="#">Benefits</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Login</a></li>
-              </ul>
-            </div>
-            <div class="col-md-6 text-right all-right-reserved">
-              <img src="img/footer-logo.png" width="215" alt="" />
-              <ul>
-                <li>© 2020 Min You</li>
-                <li>All Rights Reserved</li>
-                <li>SEC Company Reg. No. CS123456789</li>
-                <li>Certificate of Authority No. 0000</li>
-              </ul>
-            </div>
+        <div class="row align-items-center">
+          <div class="col-md-3">
+            <img src="img/Orofan Logo-01.png" width="250">
+          </div>
+          <div class="col-md-9">
+            <ul class="footer-menu">
+              <li><a href="index.html">HOME &nbsp; | &nbsp;</li>
+              <li><a href="about.html">ABOUT US &nbsp; | &nbsp;</li>
+              <li><a href="product.html">ALL PRODUCTS &nbsp; | &nbsp;</li>
+              <li><a href="#">FAN &nbsp; | &nbsp;</li>
+              <li><a href="#">STOVE &nbsp; | &nbsp;</li>
+              <li><a href="request-a-quote.html">GET A QOUTE &nbsp; | &nbsp;</li>
+              <li><a href="faq.html">FAQ &nbsp; | &nbsp;</li>
+              <li><a href="contact.html">CONTACT</li>
+            </ul>
+            <ul>
+              <li><i class="fa"></i> EMG 7-8 3M Compound, Sta. Rosa II, Marilao Bulacan</li>
+              <li><i class="fa">&#xf095;</i>044-802 5564</li>
+              <li><i style="font-size: 16px;" class="fa">&#xf0e0;</i>orofanhomeapp@gmail.com</li>
+            </ul>
           </div>
         </div>
       </div>
     </footer>
 
+      
+
     <script src="js/vendor/jquery-3.4.1.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+      charset="utf-8"
+    ></script>
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/javascript">
+//       $(document).ready(function() {
+
+//   $('.color-choose input').on('click', function() {
+//       var headphonesColor = $(this).attr('data-image');
+
+//       $('.active').removeClass('active');
+//       $('.left-column img[data-image = ' + headphonesColor + ']').addClass('active');
+//       $(this).addClass('active');
+//   });
+
+// });
+
       AOS.init();
     </script>
   </body>

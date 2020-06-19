@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="brokenbar" format="2">
-  <advance width="1147"/>
-  <unicode hex="00CB"/>
-  <outline>
-    <component base="b"/>
-    <component base="nonbreakingspace" xOffset="432" yOffset="354"/>
-  </outline>
-</glyph>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Thorn" format="2">
-  <advance width="348"/>
-  <unicode hex="00CC"/>
-  <outline>
-    <component base="f"/>
-    <component base="braceright" xOffset="-1" yOffset="354"/>
-  </outline>
-</glyph>

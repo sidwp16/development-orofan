@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="twosuperior" format="2">
-  <advance width="1376"/>
-  <unicode hex="00DA"/>
-  <outline>
-    <component base="r"/>
-    <component base="ellipsis" xOffset="529" yOffset="354"/>
-  </outline>
-</glyph>

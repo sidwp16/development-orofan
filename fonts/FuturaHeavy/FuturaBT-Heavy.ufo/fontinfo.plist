@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>familyName</key>
+    <string>Futura Hv BT</string>
+    <key>styleName</key>
+    <string>Heavy</string>
+    <key>styleMapFamilyName</key>
+    <string>Futura Heavy BT</string>
+    <key>styleMapStyleName</key>
+    <string>regular</string>
+    <key>copyright</key>
+    <string>Copyright 1990-1993 Bitstream Inc.  All rights reserved.</string>
+    <key>unitsPerEm</key>
+    <integer>2048</integer>
+    <key>ascender</key>
+    <integer>1638</integer>
+    <key>descender</key>
+    <integer>-410</integer>
+    <key>italicAngle</key>
+    <real>0</real>
+    <key>openTypeHeadCreated</key>
+    <string>1992/11/17 23:11:13</string>
+    <key>openTypeHheaAscender</key>
+    <integer>1972</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>-483</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>0</integer>
+    <key>openTypeNameVersion</key>
+    <string>mfgpctt-v1.52 Tuesday, January 12, 1993 3:42:48 pm (EST)</string>
+    <key>openTypeNameUniqueID</key>
+    <string>Futura Heavy, Geometric 211</string>
+    <key>openTypeOS2Panose</key>
+    <array>
+      <integer>2</integer>
+      <integer>11</integer>
+      <integer>7</integer>
+      <integer>2</integer>
+      <integer>2</integer>
+      <integer>2</integer>
+      <integer>4</integer>
+      <integer>2</integer>
+      <integer>2</integer>
+      <integer>4</integer>
+    </array>
+    <key>openTypeOS2WidthClass</key>
+    <integer>5</integer>
+    <key>openTypeOS2WeightClass</key>
+    <integer>400</integer>
+    <key>openTypeOS2VendorID</key>
+    <string>Bits</string>
+    <key>openTypeOS2FamilyClass</key>
+    <array>
+      <integer>8</integer>
+      <integer>3</integer>
+    </array>
+    <key>openTypeOS2Type</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+      <integer>3</integer>
+    </array>
+    <key>openTypeOS2TypoAscender</key>
+    <integer>1556</integer>
+    <key>openTypeOS2TypoDescender</key>
+    <integer>492</integer>
+    <key>openTypeOS2TypoLineGap</key>
+    <integer>410</integer>
+    <key>openTypeOS2WinAscent</key>
+    <integer>1972</integer>
+    <key>openTypeOS2WinDescent</key>
+    <integer>483</integer>
+    <key>openTypeOS2SubscriptXSize</key>
+    <integer>1351</integer>
+    <key>openTypeOS2SubscriptYSize</key>
+    <integer>1228</integer>
+    <key>openTypeOS2SubscriptXOffset</key>
+    <integer>0</integer>
+    <key>openTypeOS2SubscriptYOffset</key>
+    <integer>-432</integer>
+    <key>openTypeOS2SuperscriptXSize</key>
+    <integer>1351</integer>
+    <key>openTypeOS2SuperscriptYSize</key>
+    <integer>1228</integer>
+    <key>openTypeOS2SuperscriptXOffset</key>
+    <integer>0</integer>
+    <key>openTypeOS2SuperscriptYOffset</key>
+    <integer>575</integer>
+    <key>openTypeOS2StrikeoutSize</key>
+    <integer>190</integer>
+    <key>openTypeOS2StrikeoutPosition</key>
+    <integer>614</integer>
+    <key>postscriptFontName</key>
+    <string>FuturaBT-Heavy</string>
+    <key>postscriptFullName</key>
+    <string>Futura Heavy BT</string>
+    <key>postscriptWeightName</key>
+    <string>Book</string>
+    <key>postscriptUnderlineThickness</key>
+    <integer>190</integer>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-318</integer>
+    <key>guidelines</key>
+    <array/>
+  </dict>
+</plist>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="germandbls" format="2">
-  <advance width="1024"/>
-  <unicode hex="00E2"/>
-  <outline>
-    <component base="asciitilde"/>
-    <component base="threequarters" xOffset="347"/>
-  </outline>
-</glyph>
