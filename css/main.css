@@ -492,11 +492,16 @@ nav li {
 }
 .section-3 .services-content {
   padding: 80px 110px 30px 150px;
-  position: absolute;
+  /*position: absolute;*/
   bottom: 0;
 }
 .section-3 .carousel-inner ul li {
   color: #fff;
+}
+.section-3 .services-content img {
+  width: 473px;
+  text-align: center;
+  margin: 0 auto;
 }
 .section-3 .carousel-inner ul {
   padding: 0;
@@ -660,6 +665,7 @@ nav li {
   font-weight: bold;
   font-size: 14px;
 }
+.navbar {}
 .navbar-toggler{
 width: 47px;
 height: 40px;
@@ -883,4 +889,19 @@ margin-bottom: 5px;
 
 
 
+.navbar { 
+  -webkit-transition:padding 0.2s ease;
+  -moz-transition:padding 0.2s ease; 
+  -o-transition:padding 0.2s ease;        
+  transition:padding 0.2s ease;  
+}
+
+.affix {
+  padding-top: 0.2em !important;
+  padding-bottom: 0.2em !important;
+  -webkit-transition:padding 0.2s linear;
+  -moz-transition:padding 0.2s linear;  
+  -o-transition:padding 0.2s linear;         
+  transition:padding 0.2s linear;  
+}
 
