@@ -1,0 +1,19 @@
+@font-face {
+  font-family: '';
+  src: ;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CooperHewitt-Medium';
+  src: url('CooperHewitt-Medium.eot');
+  src: url('CooperHewitt-Medium.eot?#iefix') format('embedded-opentype'),
+       url('CooperHewitt-Medium.svg#CooperHewitt-Medium') format('svg'),
+       url('CooperHewitt-Medium.ttf') format('truetype'),
+       url('CooperHewitt-Medium.woff') format('woff'),
+       url('CooperHewitt-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
