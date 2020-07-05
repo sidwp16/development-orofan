@@ -491,7 +491,7 @@ nav li {
   margin-top: 50px;
 }
 .section-3 .services-content {
-  padding: 80px 110px 30px 150px;
+  padding: 30px 82px 0px 82px;
   /*position: absolute;*/
   bottom: 0;
 }
@@ -499,7 +499,7 @@ nav li {
   color: #fff;
 }
 .section-3 .services-content img {
-  width: 473px;
+  width: 100%;
   text-align: center;
   margin: 0 auto;
 }
@@ -515,6 +515,12 @@ nav li {
   width: 140px;
   font-size: 14px;
   margin-top: 25px;
+}
+.section-3 .carousel-control-prev {
+  left: -60px;
+}
+.section-3 .carousel-control-next {
+  right: -60px;
 }
 
 
@@ -904,4 +910,167 @@ margin-bottom: 5px;
   -o-transition:padding 0.2s linear;         
   transition:padding 0.2s linear;  
 }
+
+
+.mobile-view {
+  display: none;
+}
+.mobile-hide {
+  display: block;
+}
+
+
+
+@media ( max-width: 414px ) {
+  .mobile-view {
+      display: block !important;
+  }
+  .mobile-hide {
+      display: none !important;
+  }
+  .section-3 {
+    height: auto;
+  }
+  .section-3 .services-content {
+    padding: 10px !important;
+    position: initial;
+  }
+  .section-3 .carousel-item {
+    height: 100vh;
+  }
+  .section-3 .carousel-control-prev {
+    left: 0;
+    top: -100%;
+  }
+  .section-3 .carousel-control-next {
+    right: 0;
+    top: -100%;
+  }
+  .section-4 .project-content {
+    padding: 0;
+  }
+  .section-4 .carousel-control-prev i {
+    color: #f7ef39 !important;
+    font-weight: bold;
+  }
+  .section-4 .carousel-control-next i {
+    color: #f7ef39 !important;
+    font-weight: bold;
+  }
+  .header-content h2 {
+    font-size: 40px;
+  }
+  .section-2 h2 {
+    font-size: 35px;
+  }
+  .section-2 p {
+    font-size: 14px;
+  }
+  .section-3 h2 {
+    font-size: 35px;
+  }
+  .section-3 h3 {
+    font-size: 18px;
+  }
+  .section-3 button {
+    font-size: 13px;
+  }
+  .section-3 .carousel-inner ul li {
+    font-size: 14px;
+  }
+  .section-4 h2 {
+    font-size: 30px;
+  }
+  .section-4 .project-title a {
+    font-size: 14px;
+  }
+  .section-4 .project-title p {
+    font-size: 14px;
+  }
+  .contact-us h2 {
+    font-size: 30px;
+  }
+  .contact-us .contact-us-content label {
+    font-size: 14px;
+  }
+  .contact-us .contact-us-content button {
+    font-size: 13px;
+  }
+  .license-accreditation h2 {
+    font-size: 30px;
+  }
+  .license-accreditation ul {
+    padding: 0;
+  }
+  .license-accreditation img {
+    margin: 15px;
+  }
+  .copyright {
+    text-align: center;
+  }
+  .copyright ul {
+    float: initial !important;
+    padding: 0;
+    padding-bottom: 10px;
+  }
+}
+
+@media ( max-width: 320px ) {
+  .header-content h2 {
+    font-size: 35px;
+  }
+  .section-2 h2 {
+    font-size: 35px;
+  }
+  .section-2 p {
+    font-size: 14px;
+  }
+  .section-3 h2 {
+    font-size: 35px;
+  }
+  .section-3 h3 {
+    font-size: 18px;
+  }
+  .section-3 button {
+    font-size: 13px;
+  }
+  .section-3 .carousel-inner ul li {
+    font-size: 14px;
+  }
+  .section-4 h2 {
+    font-size: 30px;
+  }
+  .section-4 .project-title a {
+    font-size: 14px;
+  }
+  .section-4 .project-title p {
+    font-size: 14px;
+  }
+  .contact-us h2 {
+    font-size: 30px;
+  }
+  .contact-us .contact-us-content label {
+    font-size: 14px;
+  }
+  .contact-us .contact-us-content button {
+    font-size: 13px;
+  }
+  .license-accreditation h2 {
+    font-size: 30px;
+  }
+  .license-accreditation ul {
+    padding: 0;
+  }
+  .license-accreditation img {
+    margin: 15px;
+  }
+  .copyright {
+    text-align: center;
+  }
+  .copyright ul {
+    float: initial !important;
+    padding: 0;
+    padding-bottom: 10px;
+  }
+} 
 
