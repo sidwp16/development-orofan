@@ -369,10 +369,11 @@ nav li {
     border-bottom: 0;
     margin-top: 0;
     color: #fff;
-    font-size: 13px;
+    font-size: 14px;
     padding: 14px;
     margin: 0 !important;
     margin-left: 35px !important;
+    font-family: 'CooperHewitt-Medium';
 }
 .slider-menu .carousel-indicators .active {
   border-top: 2px solid #f7ef39;
@@ -498,6 +499,7 @@ nav li {
 }
 .section-3 .carousel-inner ul li {
   color: #fff;
+  font-family: 'CooperHewitt-Medium';
 }
 .section-3 .services-content img {
   width: 100%;
@@ -577,7 +579,8 @@ nav li {
 }
 .section-4 .project-title a {
   color: #fff;
-  font-size: 15px;
+  font-size: 14px;
+  font-family: 'OpenSans-Extrabold';
 }
 /*.section-4 .project-content .project-title a{
   color: #fff;
