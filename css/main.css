@@ -421,6 +421,7 @@ nav li {
   width: 140px;
   font-size: 14px;
   margin-top: 25px;
+  margin-left: -15px;
 }
 
 
@@ -467,7 +468,8 @@ nav li {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
+  height: auto;
+  padding-bottom: 50px;
 }
 .section-3 .carousel-item {
   height: 50vh;
@@ -518,6 +520,7 @@ nav li {
   width: 140px;
   font-size: 14px;
   margin-top: 25px;
+  margin-left: -15px;
 }
 .section-3 .carousel-control-prev {
   left: -60px;
@@ -559,7 +562,7 @@ nav li {
   height: 50vh;
 }
 .section-4 .project-content {
-  padding: 80px 150px 0 150px;
+  padding: 80px 80px 0 80px;
   bottom: 0;
   width: 100%;
   position: absolute;
@@ -612,9 +615,9 @@ nav li {
 .section-4 .project-content p {
   padding-top: 35px;
 }
-.section-4 .carousel-inner{
+/*.section-4 .carousel-inner{
   margin-top: 50px;
-}
+}*/
 
 
 .contact-us {
@@ -937,10 +940,13 @@ margin-bottom: 5px;
   }
   .section-3 .services-content {
     padding: 10px !important;
-    position: initial;
+  }
+  .section-3 .carousel {
+    overflow: initial !important;
   }
   .section-3 .carousel-item {
-    height: 100vh;
+    height: auto;
+    padding-bottom: 50px;
   }
   .section-3 .carousel-control-prev {
     left: 0;
@@ -1098,11 +1104,17 @@ margin-bottom: 5px;
 
 .section-4 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230b2545' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
 
+.section-3 .carousel {
+  overflow: hidden;
+}
 
-
-
-
-
+.section-4 .carousel-control-prev {
+  left: -60px;
+}
+.section-4 .carousel-control-next {
+  right: -60px;
+}
 
 
