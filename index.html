@@ -14,874 +14,537 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- <link
       href="https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900"
       rel="stylesheet"
       type="text/css"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    /> -->
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" /> -->
     <link rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/main.css" />
   </head>
 
-
   <body>
-      <nav class="navbar sticky-top navbar-expand-lg navbar-light" id="navbar" data-toggle="affix">
+    <div class="homepage">
+      <div class="navbar-top mobile-hide">
         <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="img/rcs-logo.png" width="180" alt="" />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="line"></span> 
-        <span class="line"></span> 
-        <span class="line"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link md-close" href="#"
-                  >HOME <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link md-close js-anchor-link" href="#aboutus">ABOUT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link md-close js-anchor-link" href="#services">SERVICES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link md-close js-anchor-link" href="#project-highlight">GALLERY</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://dpex.com/track-and-trace/" target="_blank">TRACK AND TRACE</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">LOCATION</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link md-close js-anchor-link" href="#contact">CONTACT</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div class="homepage">
-        <div class="header-banner">
-          <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
-            <div class="mobile-hide">
-              <ol class="carousel-indicators c-indicators">
-                <!-- <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
-                  <img src="img/track-trace-logo.png" width="100%" style="margin-left: -135px;">
-                </li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1">
-                  <img src="img/sealand-logo.png" width="100%" style="margin-left: -55px;">
-                </li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2">
-                  <img src="img/transport-logo.png" width="100%" style="margin-left: 24px;">
-                </li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3">
-                  <img src="img/forwarding-logo.png" width="100%" style="margin-left: 87px;">
-                </li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="4">
-                  <img src="img/brokerage-logo.png" width="100%" style="margin-left: 130px;">
-                </li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="5">
-                  <img src="img/project-logo.png" width="100%" style="margin-left: 160px;">
-                </li> -->
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="test active">
-                  <img src="img/track-trace-logo.png" width="100%" style="margin-left: 15px;">
-                </li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1" class="test">
-                  <img src="img/transport-logo.png" width="100%" style="margin-left: 5px;">
-                </li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2" class="test">
-                  <img src="img/forwarding-logo.png" width="100%" style="margin-left: -20px;">
-                </li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3" class="test">
-                  <img src="img/brokerage-logo.png" width="100%" style="margin-left: -44px;">
-                </li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="4" class="test">
-                  <img src="img/project-logo.png" width="100%" style="margin-left: -68px;">
-                </li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="5" class="test">
-                  <img src="img/sealand-logo.png" width="100%" style="margin-left: -98px;">
-                </li>
-              </ol>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="slider-img">
-                  <div class="container">
-                    <div class="header-content">
-                      <h4>we help you move ahead.</h4>
-                      <div class="header-title">
-                        <hr>
-                        <h2>Track & Trace</h2>
-                      </div>
-                      <p>Keep tabs on the status of your cargo, anytime and from anywhere. With our online track-and-trace system, it’s possible.</p>
-                      <a class="nav-link" href="https://dpex.com/track-and-trace/" target="_blank"><button style="    width: 210px;">TRACK YOUR SHIPMENT</button></a> 
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="slider-img-3">
-                  <div class="container">
-                  <div class="header-content">
-                      <h4>we help you move ahead.</h4>
-                      <div class="header-title">
-                        <hr>
-                        <h2>Transport</h2>
-                      </div>
-                      <p>With a dedicated command center and an expansive fleet of closed vans and tractor-heads, it’s clear that your cargo is in more-than-able hands.</p>
-                      <a class="nav-link js-anchor-link" href="#contact"><button>CONTACT US</button></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <div class="slider-img-4">
-                    <div class="container">
-                  <div class="header-content">
-                      <h4>we help you move ahead.</h4>
-                      <div class="header-title">
-                        <hr>
-                        <h2>Forwarding</h2>
-                      </div>
-                      <p>Whether your cargo is shipping within the country or from abroad, our top-tier forwarding solutions are your best move.</p>
-                      <a class="nav-link js-anchor-link" href="#contact"><button>CONTACT US</button></a>
-                    </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-                <div class="slider-img-5">
-                  <div class="container">
-                    <div class="header-content">
-                      <h4>we help you move ahead.</h4>
-                      <div class="header-title">
-                        <hr>
-                        <h2>Brokerage</h2>
-                      </div>
-                      <p>Our brokerage services will rid you of the arduous process of bringing in cargo from overseas. No headaches. No mess. Brokerage simplified.</p>
-                      <a class="nav-link js-anchor-link" href="#contact"><button>CONTACT US</button></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <div class="slider-img-6">
-                  <div class="container">
-                  <div class="header-content">
-                      <h4>we help you move ahead.</h4>
-                      <div class="header-title">
-                        <hr>
-                        <h2>Projects</h2>
-                      </div>
-                      <p>From world tours to manufacturing plants, no task is too big or too daunting for us to handle. We work best under pressure.</p>
-                      <a class="nav-link js-anchor-link" href="#contact"><button>CONTACT US</button></a>
-                    </div>
-                </div>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <div class="slider-img-2">
-                  <div class="container">
-                  <div class="header-content">
-                      <h4>we help you move ahead.</h4>
-                      <div class="header-title">
-                        <hr>
-                        <h2>SeaLand Shuttle Services</h2>
-                      </div>
-                        <p style="padding-top: 150px">A less-container-load (LCL) solution that ships out weekly from major Philippine cities. Faster, cheaper, and more reliable.</p>
-                        <a class="nav-link js-anchor-link" href="#contact"><button>CONTACT US</button></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              
-              
-               
-              <div class="mobile-view">
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" data-slide="prev">
-                  <i style="font-size:30px; color: #f7ef39;"  class="fa">&#xf104;</i>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" data-slide="next">
-                  <i style="font-size:30px; color: #f7ef39;" class="fa">&#xf105;</i>
-                </a>
-              </div>
-
-            </div>
-          </div>
-        </div>
-        <div class="slider-menu mobile-hide">
-          <ol class="carousel-indicators carousel-indicators2">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
-                Track & Trace
-              </li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1">
-                Transport
-              </li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2">
-                Forwarding
-              </li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="3">
-                Brokerage
-              </li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="4">
-                Project
-              </li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="5" style="margin-left: -1px !important;">
-                SeaLand Shuttle Services
-              </li>
-            </ol>
-        </div>
-        
-
-        <div class="section-2" id="aboutus">
-          <div class="container">
-            <div class="about-content">
-              <h2>ABOUT US</h2>
-              <p>Transport. Forwarding. Brokerage. Projects. Need to move cargo? On the road, across the sea, or over the skies, RCS Logistics is there for you. We don’t just help you move. We help you move ahead.</p>
-            </div>
-            <div class="row text-center">
-              <div class="col-md-4 mt-4">
-                <img src="img/who-we-are.png" width="220">
-                <h3>WHO WE ARE</h3>
-                <p>We are a logistics provider dedicated to giving you uncompromising solutions with excellent service standards.</p>
-              </div>
-              <div class="col-md-4 mt-4">
-                <img src="img/why-us-img.png" width="220">
-                <h3>WHY US</h3>
-                <p>We have a wealth of global experience in hands-on management and understand the intricacies of running a business.</p>
-              </div>
-              <div class="col-md-4 mt-4">
-                <img src="img/what-we-are.png" width="220">
-                <h3>WHAT WE ARE</h3>
-                <p>We employ a stable of highly skilled and experienced management personnel that are armed with necessary tools.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="section-3" id="services">
-          
-            <h2>SERVICES</h2>
-            <div class="container">
-            <div id="demo" class="carousel slide" data-ride="carousel">
-  <!-- <ul class="carousel-indicators thiss">
-    <li data-target="#demo" data-slide-to="0" class="active" style="background-color: #fff; background: none !important;"></li>
-    <li data-target="#demo" data-slide-to="1" style="background-color: #fff; background: none !important;"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-    <li data-target="#demo" data-slide-to="3"></li>
-    <li data-target="#demo" data-slide-to="4"></li>
-    <li data-target="#demo" data-slide-to="5"></li>
-  </ul> -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div class="services-content">
-        <div class="row align-items-center">
-          <div class="col-md-6 text-center order-md-2 mt-4">
-            <img src="img/track-trace-img.jpg" alt="" width="100%">
-          </div>
-          <div class="col-md-6 order-md-1 mt-4">
-            <h3><u>TRACK & TRACE</u></h3>
-            <ul>
-              <li>Easy-to-use real-time online status tracker</li>
-            </ul>
-            <a class="nav-link" href="https://dpex.com/track-and-trace/" target="_blank"><button style="    width: 210px;">TRACK YOUR SHIPMENT</button></a>
-          </div>
-        </div>  
-      </div>
-    </div>
-
-    <div class="carousel-item">
-      <div class="services-content">
-        <div class="row align-items-center">
-          <div class="col-md-6 text-center order-md-2 mt-4">
-            <img src="img/sealand-shuttle-img.jpg" alt="" width="100%">
-          </div>
-          <div class="col-md-6 order-md-1 mt-4">
-            <h3><u>SEALAND SHUTTLE</u></h3>
-            <ul>
-              <li>Efficient less-container-load (LCL) solution</li>
-              <li>Fees computed by space taken up in cubic meters</li>
-              <li>Weekly trips to and from major Philippine cities</li>
-            </ul>
-            <a class="nav-link js-anchor-link" href="#contact"><button>CONTACT US</button></a>
-          </div>
-          
-        </div>  
-      </div> 
-    </div>
-
-    <div class="carousel-item">
-      <div class="services-content">
-        <div class="row align-items-center">
-          <div class="col-md-6 text-center order-md-2 mt-4">
-            <img src="img/transport-img.jpg" alt="" width="100%">
-          </div>
-          <div class="col-md-6 order-md-1 mt-4">
-            <h3><u>TRANSPORT</u></h3>
-            <ul>
-              <li>Own fleet of Tractor, Wing Vans and Closed Trucks with GPS monitoring through our Command Center</li>
-              <li>Capable to hustle out of gauge, flat racks/flatbeds</li>
-            </ul>
-            <a class="nav-link js-anchor-link" href="#contact"><button>CONTACT US</button></a>
-          </div>
-        </div>  
-      </div>  
-    </div>
-
-    <div class="carousel-item">
-      <div class="services-content">
-        <div class="row align-items-center">
-          <div class="col-md-6 text-center order-md-2 mt-4">
-            <img src="img/forwarding-services-img.jpg" alt="" width="100%">
-          </div>
-          <div class="col-md-6 order-md-1 mt-4">
-            <h3><u>FORWARDING</u></h3>
-            <ul>
-              <li>International and domestic air and sea freight</li>
-              <li>DGR packing and handling</li>
-              <li>Aircraft and vessel chartering</li>
-            </ul>
-            <a class="nav-link js-anchor-link" href="#contact"><button>CONTACT US</button></a>
-          </div>
-        </div>  
-      </div>
-    </div>
-
-    <div class="carousel-item">
-      <div class="services-content">
-        <div class="row align-items-center">
-          <div class="col-md-6 text-center order-md-2 mt-4">
-            <img src="img/brokerage-img.jpg" alt="" width="100%">
-          </div>
-          <div class="col-md-6 order-md-1 mt-4">
-            <h3><u>BROKERAGE</u></h3>
-            <ul>
-              <li>Timely shipment releasing</li>
-              <li>Highly qualified customs brokers</li>
-              <li>Cost-efficient on shipment releasing</li>
-            </ul>
-            <a class="nav-link js-anchor-link" href="#contact"><button>CONTACT US</button></a>
-          </div>
-        </div>  
-      </div>
-    </div>
-
-    <div class="carousel-item">
-      <div class="services-content">
-        <div class="row align-items-center">
-          <div class="col-md-6 text-center order-md-2 mt-4">
-            <img src="img/project-img.jpg" alt="" width="100%">
-          </div>
-          <div class="col-md-6 order-md-1 mt-4">
-            <h3><u>PROJECTS</u></h3>
-            <ul>
-              <li>Livestock handling</li>
-              <li>Transport and positioning of out-of-gauge</li>
-              <li>World tour and events</li>
-            </ul>
-            <a class="nav-link js-anchor-link" href="#contact"><button>CONTACT US</button></a>
-          </div>
-        </div>  
-      </div>
-    </div>
-
-    </div>
-    <a class="carousel-control-prev" href="#demo" data-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </a>
-    <a class="carousel-control-next" href="#demo" data-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </a>
-  </div>
-            </div>
-          </div>
-
-
-
-    <div class="section-4" id="project-highlight">
-      <h2>GALLERY</h2>
-      <div class="container">
-        <div id="demo3" class="carousel slide" data-ride="carousel">
-          <ul class="carousel-indicators">
-            <li data-target="#demo3" data-slide-to="0" class="active"></li>
-            <li data-target="#demo3" data-slide-to="1"></li>
-            <li data-target="#demo3" data-slide-to="2"></li>
-          </ul>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="project-content">
-                  <div class="row text-center align-items-center">
-                    <div class="col-md-4">
-                      <div class="project-img">
-                        <img src="img/concerts-img.jpg" width="100%">
-                        <div class="project-title">
-                          <a class="md-concert" data-modal="modal-12">
-                            CONCERTS
-                          </a> 
-                        </div>
-                      </div>
-                      <p>Equipment shipment for international concerts</p>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="project-img">
-                        <img src="img/pandemic-img.jpg" width="100%">
-                        <div class="project-title">
-                          <a class="md-trigger" data-modal="modal-12">
-                            PANDEMIC RESPONSE
-                          </a> 
-                        </div>
-                      </div>
-                      <p>Urgent medical shipment for international health organizations</p>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="project-img">
-                        <img src="img/project-cargo-img.jpg" width="100%">
-                        <div class="project-title">
-                          <a class="md-project-cargo" data-modal="modal-12">
-                            PROJECT CARGO
-                          </a> 
-                        </div>
-                      </div>
-                      <p>Cargo shipment for large-scale <br/> projects</p>
-                    </div>
-                  </div>
-                </div> 
-            </div>
-
-            <div class="carousel-item">
-                <div class="project-content">
-                  <div class="row text-center align-items-center">
-                    <div class="col-md-4">
-                      <div class="project-img">
-                        <img src="img/concerts-img.jpg" width="100%">
-                        <div class="project-title">
-                          <a class="md-concert" data-modal="modal-12">
-                            CONCERTS
-                          </a> 
-                        </div>
-                      </div>
-                      <p>Equipment shipment for international concerts</p>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="project-img">
-                        <img src="img/pandemic-img.jpg" width="100%">
-                        <div class="project-title">
-                          <a class="md-trigger" data-modal="modal-12">
-                            PANDEMIC RESPONSE
-                          </a> 
-                        </div>
-                      </div>
-                      <p>Urgent medical shipment for international health organizations</p>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="project-img">
-                        <img src="img/project-cargo-img.jpg" width="100%">
-                        <div class="project-title">
-                          <a class="md-project-cargo" data-modal="modal-12">
-                            PROJECT CARGO
-                          </a> 
-                        </div>
-                      </div>
-                      <p>Cargo shipment for large-scale <br/> projects</p>
-                    </div>
-                  </div>
-                </div> 
-            </div>
-        <!--     <div class="carousel-item">
-              <img src="chicago.jpg" alt="Chicago" width="1100" height="500">
-              <div class="carousel-caption">
-                <h3>Chicago</h3>
-                <p>Thank you, Chicago!</p>
-              </div>   
-            </div>
-            <div class="carousel-item">
-              <img src="ny.jpg" alt="New York" width="1100" height="500">
-              <div class="carousel-caption">
-                <h3>New York</h3>
-                <p>We love the Big Apple!</p>
-              </div>   
-            </div>
-          </div> -->
-          <a class="carousel-control-prev" href="#demo3" data-slide="prev">
-      <span class="carousel-control-prev-icon" style="background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%230b2545' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e) !important;"></span>
-    </a>
-    <a class="carousel-control-next" href="#demo3" data-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="location-map"></div>
-
-    <div class="contact-us" id="contact">
-      <div class="container">
-        <h2><u>CONTACT US</u></h2>
-        <div class="contact-us-content">
-          <div class="row">
-            <div class="col-md-6">
-              <form>
-                <label>Name</label>
-                <input type="" name="">
-                <label class="mt-2">Email Address</label>
-                <input type="" name="">
-                <label class="mt-2">Message</label>
-                <textarea></textarea>
-                <button>SUBMIT</button>
+          <div class="row align-items-center">
+            <div class="col-md-4">
+              <form action="" class="site-block-top-search">
+                <i class="fa">&#xf002;</i>
+                <input type="text" class="form-control border-0" placeholder="Search">
               </form>
             </div>
-            <div class="col-md-3 mt-4">
-              <h5>MAIN OFFICE</h5>
-              <p>8160 Dr. A. Santos Ave.<br/>
-                  Brgy. San Dionisio,<br/>
-                  Parañaque City <br/>
-                  1700, Philippines<br/>
-                  Contact No: (02) 88250200 (HOTLINE)<br/>
-              </p>
-              <h5>MANILA</h5>
-              <p>485 Urbiztondo St.<br/>
-                  San Nicolas, Binondo<br/>
-                  Manila <br/>
-                  1700, Philippines<br/>
-                  Contact No: 0917-135-7995 (GLOBE)<br/>
-                  Contact No: (02)7585-0253 (HOTLINE) <br/>
-              </p>
-              <p>P. Aquino Avenue <br/>
-                  Brgy. Tonsuya<br/>
-                  Malabon City <br/>
-                  1700, Philippines<br/>
-                  Contact No: 8366-8630 (HOTLINE) <br/>
-              </p>
-              <h5>CEBU</h5>
-              <p>Whse #27 Siment Cmpd.,<br/>
-                 Zuellig Ave., North Reclamation Area<br/>
-                 Mandaue City<br/>
-                 Cebu, Philippines<br/>
-                 Contact No: (032) 3448003 (HOTLINE)<br/>
-              </p>
-              <h5>CAGAYAN DE ORO</h5>
-              <p>Door B2, Our Lady of manaoag town center, <br/>
-                  Kauswagan market Kauswagan,<br/>
-                  Cagayan de Oro City<br/>
-                  1700, Philippines<br/>
-                  09171263718 (GLOBE) <br/>
-                  (088) 2915906 (HOTLINE)<br/>
-              </p>
+            <div class="col-md-4 text-center">
+              <img src="img/Orofan Logo-01.png" width="250">
             </div>
-            <div class="col-md-3 mt-4">
-              <h5>NAGA</h5>
-              <p>Dooor #9 Dra. Teresita Lee Building Ninoy and Cory Aquino Avenue,  <br/>
-                  Triangulo,<br/>
-                  Naga City<br/>
-                  1700, Philippines<br/>
-                  09171399742 (GLOBE) <br/>
-                  (054) 2251000 (HOTLINE)<br/>
-              </p>
-              <h5>LUCENA</h5>
-              <p>Diversion Road, Lucena Grand Central Terminal, Inc.,  <br/>
-                  Ilayang Dupay,<br/>
-                  Lucena City<br/>
-                  1700, Philippines<br/>
-                  09176276713 (GLOBE) <br/>
-                  09338258067 (SUN)<br/>
-              </p>
-              <h5>DAVAO</h5>
-              <p>Unit 19 Davao Airport View<br/>
-                 Commercial Complex,<br/>
-                 Carlos P. Garcia Highway<br/>
-                 Buhangin, Davao City<br/>
-              </p>
-              <h5>CLARK/SUBIC</h5>
-              <p>Contact No: 09171352322 (GLOBE)</p>
+            <div class="col-md-4 social-media">
+              <ul>
+                <li><i class="fa">&#xf09a;</i></li>
+                <li><i class="fa">&#xf16d;</i></li>
+                <li><i class="fa">&#xf099;</i></li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <img src="img/Orofan Logo-01.png" width="50%" class="desktop-hide mobile-show">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                PRODUCTS
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="product.html">ALL PRODUCTS</a>
+                <a class="dropdown-item" href="fan.html">FAN</a>
+                <a class="dropdown-item" href="stove.html">STOVE</a>
+              </div>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="request-a-quote.html">GET A QOUTE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+            <li class="desktop-hide mobile-show">
+              <div class="container">
+                <div class="row align-items-center">
+                  <div class="col-md-6">
+                    <form action="" class="site-block-top-search">
+                      <i class="fa">&#xf002;</i>
+                      <input type="text" class="form-control border-0" placeholder="Search">
+                    </form>
+                  </div>
+                  <div class="col-md-6 social-media">
+                    <ul>
+                      <li><i class="fa">&#xf09a;</i></li>
+                      <li><i class="fa">&#xf16d;</i></li>
+                      <li><i class="fa">&#xf099;</i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+     <!--  <div class="header-banner">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="banner-bg-img">
+                s
+              </div>
+    </div>
+    <div class="carousel-item">
+      <div class="banner-bg-img-2">
+                s
+              </div>
+    </div>
+    <div class="carousel-item">
+      <div class="banner-bg-img">
+                s
+              </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+      </div> -->
+      <div class="banner-bg-img">
+        <!-- <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 text-center">
+              <img src="img/ODF-16 EG.1 BLUE.png" width="50%">
+            </div>
+            <div class="col-md-6">
+              <h1>Lorem ipsum dolor sit amet, consectetur adipiscing</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at iaculis quam. Integer accumsan tincidunt fringilla. Integer accumsan tincidunt fringilla.</p>
+              <button>LEARN MORE</button>
+            </div>
+          </div>
+        </div> -->
+      </div>
+
+      <div class="section-2">
+        <div class="container">
+          <div class="row text-center align-items-center">
+            <div class="col-md-3 col-border">
+              <i style="font-size: 45px; color: #011e41;" class="fa mb-3">&#xf0d1;</i>
+              <h5>Free Shipping</h5>
+              <p>Lorem ipsum dolor</p>
+            </div>
+            <div class="col-md-3 col-border">
+              <i style="font-size: 45px; color: #011e41;" class="fa mb-3">&#xf0d6;</i>
+              <h5>Money Return</h5>
+              <p>Lorem ipsum dolor</p>
+            </div>
+            <div class="col-md-3 col-border">
+              <i style="font-size: 45px; color: #011e41;" class="fa mb-3">&#xf095;</i>
+              <h5>Online Support</h5>
+              <p>Lorem ipsum dolor</p>
+            </div>
+            <div class="col-md-3">
+              <i style="font-size: 45px; color: #011e41;" class="fa mb-3">&#xf2b5;</i>
+              <h5>Deals & Discounts</h5>
+              <p>Lorem ipsum dolor</p>
+            </div>
+          </div>
+        </div>
+          <div class="product-category">
+            <div class="column-bg">
+              <div class="text-content">
+              <h2 class="title">Lorem ipsum dolor</h2>
+                <p>We keep treasured pieces looking new for longer so that you can be proud to wear them as often as you like. Colours stay vibrant and fabrics stay soft, whilst having the minimal possible impact on the environment around us.</p>
+                <div>
+                <a href="#" class="view-more">VIEW MORE</a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="categories">
+        <section class="categories-carousel">
+  <div class="container-fluid">
+    <div class="row">
+      
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-5 text-center">
+      
+        <div id="carousel-5" class="carousel slide mb-4" data-ride="carousel">
+             
+        <!--   <ol class="carousel-indicators">
+                <li data-target="#carousel-5" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-5" data-slide-to="1"></li>
+                <li data-target="#carousel-5" data-slide-to="2"></li>
+              </ol> -->
+             
+              <div class="carousel-inner" role="listbox">
+      
+                <div class="carousel-item active">
+                  <img class="d-block img-fluid" src="img/Eco Green Banner ODF-16 570x390.jpg" alt="slide" width="100%" height="100%">
+                </div>
+                
+                <div class="carousel-item">
+                  <img class="d-block img-fluid" src="img/Eco Green Banner ODF-16B 570x390.jpg" alt="slide" width="100%">
+                </div>
+                
+                <div class="carousel-item">
+                  <img class="d-block img-fluid" src="img/Eco Green Banner OSF-16 570x390.jpg" alt="slide" width="100%">
+                </div>
+
+                 <div class="carousel-item">
+                  <img class="d-block img-fluid" src="img/Eco Green Banner OSF-16B 570x390.jpg" alt="slide" width="100%">
+                </div>
+
+                <div class="carousel-item">
+                  <img class="d-block img-fluid" src="img/Platinum Series 570x390.jpg" alt="slide" width="100%">
+                </div>
+
+              </div><!-- e carousel-inner -->
+              
+              <a class="carousel-control-prev" href="#carousel-5" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">prev</span>
+              </a>
+              
+              <a class="carousel-control-next" href="#carousel-5" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">next</span>
+              </a>
+              
+        </div><!-- e carousel -->
+
+        <a href="http://localhost/orofan/fan.html" class="view-more-product">VIEW MORE</a>
+      
+      </div><!-- e col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 -->
+      
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-5 text-center">
+      
+        <div id="carousel-6" class="carousel slide mb-4" data-ride="carousel">
+             
+        <!--   <ol class="carousel-indicators">
+                <li data-target="#carousel-6" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-6" data-slide-to="1"></li>
+                <li data-target="#carousel-6" data-slide-to="2"></li>
+              </ol> -->
+             
+              <div class="carousel-inner" role="listbox">
+      
+                <div class="carousel-item active">
+                  <img class="d-block img-fluid" src="img/Glass Top 570x390.jpg" alt="slide" width="100%">
+                </div>
+
+                <div class="carousel-item">
+                  <img class="d-block img-fluid" src="img/Glass Top 570x390.jpg" alt="slide" width="100%">
+                </div>
+
+              </div><!-- e carousel-inner -->
+              
+              <a class="carousel-control-prev" href="#carousel-6" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">prev</span>
+              </a>
+              
+              <a class="carousel-control-next" href="#carousel-6" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">next</span>
+              </a>
+              
+        </div><!-- e carousel -->
+
+        <a href="http://localhost/orofan/fan.html" class="view-more-product">VIEW MORE</a>
+      
+      </div><!-- e col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 -->
+      
+    </div><!-- e row -->
+  </div><!-- e container -->
+</section><!-- e section -->
+      </div>
+
+      <div class="product-section">
+        <div class="container">
+          <h2>FEATURED PRODUCTS</h2>
+          <!--Carousel Wrapper-->
+          <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+            <!--Controls-->
+            <div class="controls-top">
+              <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa left">&#xf104;</i></a>
+              <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa right">&#xf105;</i></a>
+            </div>
+            <!--/.Controls-->
+
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+              <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+              <li data-target="#multi-item-example" data-slide-to="1"></li>
+              <li data-target="#multi-item-example" data-slide-to="2"></li>
+            </ol>
+            <!--/.Indicators-->
+
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+
+              <!--First slide-->
+              <div class="carousel-item active">
+
+                <div class="row">
+
+                  <div class="col-md-4">
+                    <div class="card mb-2 text-center">
+                      <div class="product-img">
+                        <img class="card-img-top" src="img/ODF-16 EG.1 BLUE.png"
+                        alt="Card image cap">
+                      </div>
+                      <div class="card-body">
+                        <a href="#" class="product-link"><h5 class="card-title">DESK FAN</h5></a>
+                        <p class="mt-1">ODF-16 (EG. 1)</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 d-none d-md-block">
+                    <div class="card mb-2 text-center">
+                      <div class="product-img">
+                        <br/>
+                        <img class="card-img-top" src="img/OGS-DB.png"
+                        alt="Card image cap">
+                      </div>
+                      <div class="card-body">
+                        <a href="#" class="product-link"><h5 class="card-title">OGS-DB</h5></a>
+                        <p class="mt-1">AU. 1</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 d-none d-md-block">
+                    <div class="card mb-2 text-center">
+                      <div class="product-img">
+                        <img class="card-img-top" src="img/OSF-16 AU.2 FINAL T.BLUE.png"
+                        alt="Card image cap">
+                      </div>
+                      <div class="card-body">
+                        <a href="#" class="product-link"><h5 class="card-title">STAND FAN</h5></a>
+                        <p class="mt-1">OSF-16 (AU. 1)</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+              <!--/.First slide-->
+
+              <!--Second slide-->
+             <div class="carousel-item">
+
+                <div class="row">
+
+                  <div class="col-md-4">
+                    <div class="card mb-2 text-center">
+                      <div class="product-img">
+                        <img class="card-img-top" src="img/ODF-16 EG.1 BLUE.png"
+                        alt="Card image cap">
+                      </div>
+                      <div class="card-body">
+                        <a href="#" class="product-link"><h5 class="card-title">DESK FAN</h5></a>
+                        <p class="mt-1">ODF-16 (EG. 1)</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 d-none d-md-block">
+                    <div class="card mb-2 text-center">
+                      <div class="product-img">
+                        <br/>
+                        <img class="card-img-top" src="img/OIFF-16_2.png"
+                        alt="Card image cap">
+                      </div>
+                      <div class="card-body">
+                        <a href="#" class="product-link"><h5 class="card-title">INDUSTRIAL FLOOR FAN</h5></a>
+                        <p class="mt-1">ODF-16 (EG. 1)</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 d-none d-md-block">
+                    <div class="card mb-2 text-center">
+                      <div class="product-img">
+                        <img class="card-img-top" src="img/OSF-16 AU.2 FINAL T.BLUE.png"
+                        alt="Card image cap">
+                      </div>
+                      <div class="card-body">
+                        <a href="#" class="product-link"><h5 class="card-title">STAND FAN</h5></a>
+                        <p class="mt-1">OSF-16 (AU. 1)</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+              <!--/.Second slide-->
+
+              
+
+            </div>
+            <!--/.Slides-->
+
+          </div>
+<!--/.Carousel Wrapper-->
+        </div>
+      </div>
+
+      <div class="get-a-qoute">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
+            </div>
+            <div class="col-md-6"><a href="request-a-quote.html"><button>REQUEST QUOTE NOW</button></a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 order-md-2 mb-2">
+              <img src="img/warehouse.jpg" width="100%">
+            </div>
+            <div class="col-md-6 order-md-1">
+              <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+              <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius repellat, dicta at laboriosam, nemo exercitationem itaque eveniet architecto cumque, deleniti commodi molestias repellendus quos sequi hic fugiat asperiores illum. Atque, in, fuga excepturi corrupti error corporis aliquam unde nostrum quas.</p>
+
+              <p>Accusantium dolor ratione maiores est deleniti nihil? Dignissimos est, sunt nulla illum autem in, quibusdam cumque recusandae, laudantium minima repellendus.</p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-area">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-4 col-border">
+              <div class="contact-phone">
+                <div class="phone-icon">
+                  <i class="fa">&#xf095;</i>
+                </div>
+                <div class="phone-details">
+                  <h5>044-802 5564</h5>
+                  <p>Free support line!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-border">
+              <div class="contact-phone">
+                <div class="phone-icon">
+                  <i class="fa">&#xf0e0;</i>
+                </div>
+                <div class="phone-details">
+                  <h5>orofanhomeapp@gmail.com</h5>
+                  <p>Orders Support!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="contact-phone">
+                <div class="phone-icon">
+                  <i class="fa">&#xf017;</i>
+                </div>
+                <div class="phone-details">
+                  <h5>Mon - Sat / 8am - 5pm</h5>
+                  <p>Working Days/Hours!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
 
-    <div class="license-accreditation">
-      <div class="container-fluid">
-        <h2>LICENSE AND ACCREDITATION</h2>
-        <ul class="text-center mb-4">
-          <li><img src="img/cta-logo.png"></li>
-          <li><img src="img/dof-logo.png"></li>
-          <li><img src="img/cab-logo.png"></li>
-          <li><img src="img/ctpat-logo.png"></li>
-          <li><img src="img/dti-logo.png" style="width: 80px;"></li>
-          <li><img src="img/scmap-logo.png"></li>
-          <li><img src="img/pezza-logo.png" style="width: 70px;"></li>
-        </ul>
-        <br/>
-         <h2 style="padding-top: 0;">NETWORKS</h2>
-        <ul class="text-center network">
-          <li><img src="img/lognet-logo.png" style="width: 180px"></li>
-          <li><img src="img/logonet-logo.png"></li>
-          <li><img src="img/rcs-network-logo.png" style="width: 180px"></li>
-          <li><img src="img/wcna-logo.png" style="width: 180px"></li>
-        </ul>
-      </div>
-    </div>
-    <div class="copyright">
+    <footer>
       <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <p>RCS © 2020</p>
+        <div class="row align-items-center">
+          <div class="col-md-3">
+            <img src="img/Orofan Logo-01.png" width="250">
           </div>
-          <div class="col-md-6">
+          <div class="col-md-9">
+            <ul class="footer-menu">
+              <li><a href="index.html">HOME &nbsp; | &nbsp;</li>
+              <li><a href="about.html">ABOUT US &nbsp; | &nbsp;</li>
+              <li><a href="product.html">ALL PRODUCTS &nbsp; | &nbsp;</li>
+              <li><a href="#">FAN &nbsp; | &nbsp;</li>
+              <li><a href="#">STOVE &nbsp; | &nbsp;</li>
+              <li><a href="request-a-quote.html">GET A QOUTE &nbsp; | &nbsp;</li>
+              <li><a href="faq.html">FAQ &nbsp; | &nbsp;</li>
+              <li><a href="contact.html">CONTACT</li>
+            </ul>
             <ul>
-              <li><img src="img/facebook-icon.png"></li>
-              <li><img src="img/linkedin-logo.png"></li>
-              <li><img src="img/skype-logo.png"></li>
+              <li><i class="fa"></i> EMG 7-8 3M Compound, Sta. Rosa II, Marilao Bulacan</li>
+              <li><i class="fa">&#xf095;</i>044-802 5564</li>
+              <li><i style="font-size: 16px;" class="fa">&#xf0e0;</i>orofanhomeapp@gmail.com</li>
             </ul>
           </div>
         </div>
       </div>
-    </div>
+    </footer>
 
-
-
-    </div>
-
-
-    <!-- <button class="md-trigger" data-modal="modal-12">Show modal</button> -->
-    <div class="md-modal md-effect-12">
-        <div class="container">
-        <div class="md-content">
-          <h2>PANDEMIC RESPONSE</h2>
-          <div class="row mt-4">
-            <div class="col-md-12 mb-4" style="text-align: right;"><a class="md-close"><img src="img/back.png" width="30px"></a></div>
-              <div class="col-md-4"> 
-                <img src="img/pandemic-img-1.jpg" width="100%">
-              </div>
-              <div class="col-md-4">
-                <img src="img/pandemic-img-2.jpg" width="100%">
-              </div>
-              <div class="col-md-4">
-                <img src="img/pandemic-img-3.jpg" width="100%">
-              </div>
-            </div>
-          <div class="row mt-4">
-              <div class="col-md-4"> 
-                <img src="img/pandemic-img-4.jpg" width="100%">
-              </div>
-              <div class="col-md-4">
-                <img src="img/pandemic-img-5.jpg" width="100%">
-              </div>
-              <div class="col-md-4">
-                <img src="img/pandemic-img-6.jpg" width="100%">
-              </div>
-            </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="md-overlay"></div>
-
-
-
-    <div class="md-prodect-cargo md-effect-12 project-cargo">
-      <div class="container">
-        <div class="md-content">
-          <h2>PROJECT CARGO</h2>
-          <div class="row mt-4">
-            <div class="col-md-12 mb-4" style="text-align: right;"><a class="md-close"><img src="img/back.png" width="30px"></a></div>
-              <div class="col-md-4"> 
-                <img src="img/project-cargo-img-1.jpg" width="100%">
-              </div>
-              <div class="col-md-4">
-                <img src="img/project-cargo-img-2.jpg" width="100%">
-              </div>
-              <div class="col-md-4">
-                <img src="img/project-cargo-img-3.jpg" width="100%">
-              </div>
-            </div>
-          <div class="row mt-4">
-              <div class="col-md-4"> 
-                <img src="img/project-cargo-img-4.jpg" width="100%">
-              </div>
-              <div class="col-md-4">
-                <img src="img/project-cargo-img-5.jpg" width="100%">
-              </div>
-              <div class="col-md-4">
-                <img src="img/project-cargo-img-6.jpg" width="100%">
-              </div>
-            </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="md-overlay concerts-bg"></div>
-    
-
-
-    <div class="md-concerts md-effect-12 concerts">
-      <div class="container">
-        <div class="md-content">
-          <h2>CONCERTS</h2>
-          <div class="row mt-4">
-            <div class="col-md-12 mb-4" style="text-align: right;"><a class="md-close"><img src="img/back.png" width="30px"></a></div>
-              <div class="col-md-4"> 
-                <img src="img/concerts-img-1.jpg" width="100%">
-              </div>
-              <div class="col-md-4">
-                <img src="img/concerts-img-2.jpg" width="100%">
-              </div>
-              <div class="col-md-4">
-                <img src="img/concerts-img-3.jpg" width="100%">
-              </div>
-            </div>
-          <div class="row mt-4">
-              <div class="col-md-4"> 
-                <img src="img/concerts-img-4.jpg" width="100%">
-              </div>
-              <div class="col-md-4">
-                <img src="img/concerts-img-5.jpg" width="100%">
-              </div>
-              <div class="col-md-4">
-                <img src="img/concerts-img-6.jpg" width="100%">
-              </div>
-            </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="md-overlay concerts-bg"></div>
-
-
+      
 
     <script src="js/vendor/jquery-3.4.1.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+      charset="utf-8"
+    ></script>
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/javascript">
+//       $(document).ready(function() {
+
+//   $('.color-choose input').on('click', function() {
+//       var headphonesColor = $(this).attr('data-image');
+
+//       $('.active').removeClass('active');
+//       $('.left-column img[data-image = ' + headphonesColor + ']').addClass('active');
+//       $(this).addClass('active');
+//   });
+
+// });
+
       AOS.init();
-      var $carousel = $('#myCarousel');
-$carousel.carousel();
-var handled=false;
-var itemclicked="";
-$carousel.bind('slide.bs.carousel', function (e) {
-    var current=$(e.target).find('.item.active');
-    var indx=$(current).index();
-    if((indx+2)>$('.carousel-indicators li').length)
-        indx=-1
-        
-     if(!handled)
-     {
-        $('.carousel-indicators li').removeClass('active')
-      $('.carousel-indicators li:nth-child('+(indx+2)+')').addClass('active');
-        
-     }
-     else
-     {
-        handled=!handled;
-     }
-    
-});
-
-$(".carousel-indicators li").on('click',function(){
-   $(this).addClass('active').siblings().removeClass('active');
-   handled=true;
-});
-
-
-$('.carousel').on('slid.bs.carousel', function() {
-  $(".carousel-indicators2 li").removeClass("active");
-  indicators = $(".carousel-indicators li.active").data("slide-to");
-  a = $(".carousel-indicators2").find("[data-slide-to='" + indicators + "']").addClass("active");
-  console.log(indicators);
-
-})
-
-
-
-  $(function () {
-    
-    $('.md-trigger').on('click', function() {
-      $('.md-modal').addClass('md-show');
-    });
-    
-    $('.md-close').on('click', function() {
-      $('.md-modal').removeClass('md-show');
-    });
-    
-  }); 
-
-$(function () {
-  
-  $('.md-concert').on('click', function() {
-    $('.md-concerts').addClass('md-show');
-  });
-  
-  $('.md-close').on('click', function() {
-    $('.md-concerts').removeClass('md-show');
-  });
-  
-});
-
-$(function () {
-  
-  $('.md-project-cargo').on('click', function() {
-    $('.md-prodect-cargo').addClass('md-show');
-  });
-  
-  $('.md-close').on('click', function() {
-    $('.md-prodect-cargo').removeClass('md-show');
-  });
-  
-});
-
-
-// window.onscroll = function() {scrollFunction()};
-
-// function scrollFunction() {
-//   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-//     document.getElementById("navbar").style.top = "0";
-//   }
-//    else {
-//     document.getElementById("navbar").style.top = "-50px";
-//   }
-// }
-
-
-
-$('.js-anchor-link').click(function(e){
-  e.preventDefault();
-  var target = $($(this).attr('href'));
-  if(target.length){
-    var scrollTo = target.offset().top;
-    $('body, html').animate({scrollTop: scrollTo+'px'}, 800);
-  }
-});
-
-
-
-$(window).scroll(function() {
-  /* affix after scrolling 100px */
-  if ($(document).scrollTop() > 100) {
-    $('.navbar').addClass('affix');
-  } else {
-    $('.navbar').removeClass('affix');
-  }
-});
     </script>
   </body>
 </html>

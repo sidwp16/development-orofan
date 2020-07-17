@@ -1,0 +1,25 @@
+@font-face {
+  font-family: '911Fonts.com_FuturaHeavy__-_911fonts.com_fonts_pITw';
+  src: url('911Fonts.com_FuturaHeavy__-_911fonts.com_fonts_pITw.eot');
+  src: url('911Fonts.com_FuturaHeavy__-_911fonts.com_fonts_pITw.eot?#iefix') format('embedded-opentype'),
+       url('911Fonts.com_FuturaHeavy__-_911fonts.com_fonts_pITw.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '';
+  src: ;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaBT-Heavy';
+  src: url('FuturaBT-Heavy.svg#FuturaBT-Heavy') format('svg'),
+       url('FuturaBT-Heavy.ttf') format('truetype'),
+       url('FuturaBT-Heavy.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
